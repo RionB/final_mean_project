@@ -7,7 +7,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '9563ec6f522a4d6499b679dd2688616b'; // client id
 var client_secret = '76f287b8355a4256a14f5aaa9a1e010c'; //  secret
-var redirect_uri = 'https://spotify-app-rionb.c9users.io/callback'; // redirect uri
+var redirect_uri = 'https://final-mean-project-rionb.c9users.io/callback'; // redirect uri
 
 
 var generateRandomString = function(length) {
