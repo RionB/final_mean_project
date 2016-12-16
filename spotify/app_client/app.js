@@ -129,6 +129,3 @@ app.get('/refresh_token', function(req, res) {
     }
   });
 });
-
-console.log('Listening on env.PORT, env.IP');
-app.listen(process.env.PORT, process.env.IP);

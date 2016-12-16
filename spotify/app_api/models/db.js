@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var gracefulShutdown;
-//var dbURI = 'mongodb://localhost/airplane';
-var dbURI = 'mongodb://url';
+
+var dbURI = 'mongodb://project:project@ds133388.mlab.com:33388/final_mean_project';
 if (process.env.NODE_ENV === 'production') {
     dbURI = process.env.MONGODB_URI;
 }
@@ -46,6 +46,3 @@ process.on('SIGTERM', function() {
     });
 });
 
-// BRING IN YOUR SCHEMAS & MODELS
-require('./aircraftData');
-require('./airportData');
