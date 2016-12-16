@@ -3,7 +3,17 @@ https://ide.c9.io/rionb/spotify-app
 the above workspace has authorization working correctly. I had trouble converting it to angularjs from js and html.
 navigate to workspace/SpotifyApp/authorization_code and run node app.js
 
+I was able to hook it up to heroku and mlabs without much issue.
 
+My biggest issue was converting the stuff to angular JS, including the layout of the app itself. 
+Secondly, I had issues with the authorization to spotify itself. I could only set my stuff up once I was able to retrieve it, and my server error was preventing me 
+from doing so.
+
+Bootstrap also wasn't showing up. I'm not sure why.
+
+
+These are functions I was planning on using in angular spotify. Not all of them, but enough to have the functionality
+to mess with followers, make playlists, and maybe even listen to the music. 
 
 
 angular service to connect to the [Spotify Web API](https://developer.spotify.com/web-api/)
