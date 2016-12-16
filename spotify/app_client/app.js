@@ -1,5 +1,3 @@
-
-
 var express = require('express'); // Express web server framework
 var request = require('request'); // "Request" library
 var querystring = require('querystring');
@@ -9,7 +7,8 @@ var client_id = '9563ec6f522a4d6499b679dd2688616b'; // client id
 var client_secret = '76f287b8355a4256a14f5aaa9a1e010c'; //  secret
 var redirect_uri = 'https://final-mean-project-rionb.c9users.io/callback'; // redirect uri
 
-
+// User authorization code taken from Spotify's web api tutorial
+// https://developer.spotify.com/web-api/tutorial/
 var generateRandomString = function(length) {
   var text = '';
   var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
